@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="icon" type="image/x-icon" href="#">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <img id="brandlogo" src="img/Logo/Match Monkey上標3.png">
+        </div>
+        <div class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <img id="option" src="img/Logo/選單.png">
+            </a>
+        </div>
+        <span class="searchbox">
+            <input type="text" name="" class="search-txt" placeholder="search" />
+             <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+             </a>
+        </span>
+    </div>
+
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="menu1.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Orders</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><video src="img/slider/小木屋.mp4" autoplay loop></video></div>
+            <div class="swiper-slide"><img src="img/slider/達波.jpg"></div>
+            <div class="swiper-slide"><img src="img/slider/迷路.jpg"></div>
+            <div class="swiper-slide"><img src="img/slider/小紅牛.jpg"></div>
+        </div>
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="category">
+        <div id="cat1" class="cat1">
+            <a href="cat1.html"><img src="img/早餐.png"></a>
+        </div>
+        <div id="cat2" class="cat2">
+            <a href="cat2.html"><img src="img/中式.png"></a>
+        </div>
+        <div id="cat4" class="cat4">
+            <a href="cat4.html"><img src="img/西式.png"></a>
+        </div>
+        <div id="cat3" class="cat3">
+            <a href="cat3.html"><img src="img/宵夜.png"></a>
+        </div>
+    </div>
+
+
+</body>
+<script src="js/slider.js"></script>
+
+</html>

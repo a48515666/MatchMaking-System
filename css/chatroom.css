@@ -1,0 +1,118 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    font-family: "Montserrat", sans-serif, "Heiti TC";
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #b6d4e6e5;
+    overflow: hidden;
+    height: 50px;
+}
+
+.navbar-inner img {
+    position: relative;
+    height: 27px;
+    float: none;
+    margin: 0 auto;
+    padding: 12px;
+    max-width: 100%;
+    z-index: 0;
+}
+
+.navbar-inner {
+    text-align: center;
+}
+
+.chatbox {
+    min-width: 100px;
+    height: auto;
+    padding: 25px;
+    margin: 20px auto;
+    background: rgba(214, 207, 207, 0.295);
+    border-radius: 10px;
+}
+
+.chatlogs {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chat-form textarea ::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-form textarea ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .1)
+}
+
+.chat {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.chat-message {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 10px 0;
+    border-radius: 15px;
+    background: #f4f4f4;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.self .chat-message {
+    order: -1;
+}
+
+.chat-form {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    bottom: 0;
+}
+
+.chat-form textarea {
+    background: #fbfbfb;
+    width: 75%;
+    height: 30px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    resize: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.chat-form textarea:focus {
+    background: #fff;
+}
+
+button {
+    width: 25%;
+    background: #70a4b1;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ok {
+    width: 40%;
+}

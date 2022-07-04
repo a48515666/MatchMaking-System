@@ -1,0 +1,80 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    font: 18px/1.5 'Montserrat', sans-serif;
+    background-color: #b5cad6;
+    background-size: cover;
+}
+
+.container {
+    width: 360px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    color: #333;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #70a4b1;
+    border-radius: 20px;
+    margin: 14px auto;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.formholder {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.formholder .titleholder {
+    margin: 0 0 50px;
+}
+
+.formholder form {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.formholder form .row {
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.tbox input {
+    background: #f1f1f1b3;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: 37px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #333;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+@media screen and (max-width:359px) {
+    .container {
+        width: 100%;
+    }
+}

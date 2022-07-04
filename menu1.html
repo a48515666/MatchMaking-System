@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/menu1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Side Menu</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbar-inner">
+            <img id="brandlogo" src="img/Logo/Match Monkey上標3.png">
+        </div>
+        <div class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <img id="option" src="img/Logo/選單.png"> </a>
+        </div>
+    </div>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="menu1.html">Home</a>
+        <a href="#">Orders</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div id="main">
+        <h1></h1>
+    </div>
+    <div class="demandsupply">
+        <div id="" class="Demand">
+            <a href="supplylocation.html"><img src="img/跑腿.png"></a>
+        </div>
+        <div class="Supply">
+            <a href="slider.html"><img src="img/下單.png"></a>
+        </div>
+    </div>
+
+
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+    <script src=" js/menu1.js "></script>
+</body>
+
+</html>
+
+
+
+
+</div>
+</body>
+
+</html>
